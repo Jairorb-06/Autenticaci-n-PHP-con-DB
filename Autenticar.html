@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autenticar Usuario</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <form action="verificar.php" method="POST" id="form">
+        <div class="form">
+            <h1> Autenticación</h1>
+            <div class="grupo">
+                <!-- Pattern attribute de html5 para delimitar ingreso de caracteres pattern="[A-Za-z0-9_-][1,15]"-->
+                <input type="text" name="user" id="user"  required>
+
+                <span class="barra"></span>
+                <label for="">Usuario</label>
+            </div>
+            <div class="grupo">
+                <input type="password" name="pass" id="pass" required>
+                <span class="barra"></span>
+                <label for="">Contraseña</label>
+            </div>
+
+            <button type="submit"> Ingresar</button>
+            <button type="reset">Cancelar</button>
+
+        </div>
+
+
+    </form>
+
+</body>
+
+</html>
