@@ -2,7 +2,7 @@
 function conectar(){
     $server = "localhost";
     $user = "root";
-    $pass = "";
+    $pass = "root";
     $bd ="registro";
 
     $conexion = mysqli_connect($server,$user,$pass,$bd);
